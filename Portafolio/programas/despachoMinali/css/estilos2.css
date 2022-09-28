@@ -1,0 +1,284 @@
+@import  url( 'https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap' );
+ *{
+     margin:0;
+     padding: 0;
+     text-decoration: none;
+     box-sizing: border-box;
+     font-family: 'Montserrat Alternates', sans-serif;
+ }
+ 
+
+body{
+    background: linear-gradient(to left, transparent,  #030f5e), url(https://www.ubjonline.mx/wp-content/uploads/2017/08/contabilidad-una-aproximacion-conceptual.jpg);
+		background-size: 100vw 100vh;
+		background-repeat: no-repeat;
+        
+ }
+ nav{
+    width: 100%;
+    height: auto;
+ }
+ nav p{
+     color: #fff;
+     font-weight: 400;
+    font-size: 22px;
+    float: left;
+    margin-top: 10px;
+ }
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+   
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    color: #fff;
+    
+   margin-bottom: 200px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    
+    font-size: 20px;
+    padding: 7px 13px;
+}
+nav ul li a:hover{
+    
+  color: #fff;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+ .contenedor{
+     width: 100%;
+     margin: 0 auto;
+     overflow: hidden;
+ }
+
+.fondo1{
+   
+margin-top: 15%;
+margin-left: 5%;
+margin-bottom: 2%;
+    width: auto;
+    height: auto;
+    float: left;
+    border-radius: 1%;
+    color: #fff;
+    padding: 0;
+}
+.fondo2{
+   
+    float: left;
+    color: #fff;
+    background-color: #061a88;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.fondo2 h4:hover{
+    background-color: rgb(25, 74, 209);
+border-radius: 10px;
+border:none;
+
+
+}
+.fondo2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.contenido{
+    color: #fff;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: inline-block;
+    
+    text-align: center;
+    align-items: center;
+
+}
+.nosotros{
+    color: #061a59;
+    font-size: 16px;
+    width: 90%;
+    margin-left: 50px;
+    display: inline-block;
+}
+.nosotros h1{
+text-align: center;
+}
+.nosotros img{
+    float: right;
+    width: 600px;
+    height: auto; margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+ 
+    
+}
+.segmento1{
+    background-color: #061a50;
+    height: auto;
+    width:330px;
+    display: inline-block;
+
+    
+}
+.segmento2{
+    background-color: #061a59;
+    height: auto;
+    width: 330px;
+    display: inline-block;
+   
+    }
+
+.segmento1 img{
+    width: 70px;
+    height: auto;
+}
+.segmento2 img{
+    width: 70px;
+    height: auto;
+}
+.segmento3 img{
+    width: 70px;
+    height: auto;
+}
+.segmento3{
+    background-color: #061a38;
+    height: auto;
+    width: 330px;
+    display: inline-block;
+    
+}
+
+ .capa{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+ 
+   opacity: 1;
+    z-index: -1;
+    top: 0;left: 0;
+}
+/*Estilos para el encabezado*/
+.header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;left: 0;
+    background-color: #1c1c1c;
+    opacity: 0.7;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+  
+}
+
+
+
+.container .menu a:hover{
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 5px;
+}
+/*Fin de Estilos para el encabezado*/
+
+/*Menù lateral*/
+#btn-menu{
+    display: none;
+}
+.container-menu{
+    position: absolute;
+    background: #9b313166 ;
+    width: 100%;
+    height: auto;
+    transition: all 500ms ease;
+    opacity: 0;
+  
+}
+
+
+#btn-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0%);
+}
+nav{
+    transform: translateY(15%);
+}
+@media (max-width: 952px) {
+   
+    nav ul li a {
+        font-size: 14px;
+        margin-right: 2px;
+    }
+    nav p{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+  }
+
+  
+@media (max-width: 858px) {
+
+    .checkbtn{
+        display: block;
+        margin-right: 10px;
+        margin-top: 5px;
+    } 
+    
+    ul{ background: #061a88;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -110%;
+        text-align: center;
+        transition: all 0.5s;
+        
+    }
+     p{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+     
+     nav ul li{
+display: block;
+
+margin: 50px 0;
+line-height: 30px;
+     }
+    nav ul li a{
+        font-size: 20px;
+    }
+     nav ul li a:hover{
+         background: none;
+         color: #fff;
+     }
+     
+
+     #check:checked ~ ul{
+        left:0;
+        
+     }
+  }

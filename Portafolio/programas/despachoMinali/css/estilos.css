@@ -1,0 +1,637 @@
+@import  url( 'https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap' );
+ *{
+     margin:0;
+     padding: 0;
+     text-decoration: none;
+     box-sizing: border-box;
+     font-family: 'Montserrat Alternates', sans-serif;
+ }
+ 
+
+
+
+ nav{
+    width: 100%;
+    height: auto;
+ }
+ nav p{
+     color: #fff;
+     font-weight: 400;
+    font-size: 22px;
+    float: right;
+    margin-top: 10px;
+ }
+nav ul{
+    float: left;
+    margin-right: 20px;
+    
+   
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    color: #fff;
+    
+   margin-bottom: 200px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    
+    font-size: 20px;
+    padding: 7px 13px;
+}
+nav ul li a:hover{
+    
+  color: #fff;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+ .contenedor{
+     width: 100%;
+     margin: 0 auto;
+     overflow: hidden;
+ }
+
+.fondo1{
+   
+margin-top: 15%;
+margin-left: 5%;
+margin-bottom: 2%;
+    width: auto;
+    height: auto;
+    float: left;
+    border-radius: 1%;
+    color: #fff;
+    padding: 0;
+}
+.fondo2{
+   
+    float: left;
+    color: #fff;
+    background-color: #061a88;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.fondo2 h4:hover{
+    background-color: rgb(25, 74, 209);
+border-radius: 10px;
+border:none;
+
+
+}
+.fondo2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.contenido{
+    color: #fff;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+
+}
+.nosotros{
+    color: #061a59;
+    
+    font-size: 16px;
+    width: 90%;
+    margin-left: 50px;
+    display: inline-block;
+    text-align: justify;
+    margin-top: 100px;
+}
+.nosotros h1{
+text-align: center;
+}
+.nosotros img{
+    
+    float: right;
+    width: 600px;
+    height: auto; margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+ 
+    
+}
+.segmento1{
+    background-color: #061a50;
+    height: auto;
+    width:330px;
+    display: inline-block;
+    border-radius: 10px;
+
+    
+}
+.segmento2{
+    background-color: #061a59;
+    height: auto;
+    width: 330px;
+  display: inline-block;
+    border-radius: 10px;
+   
+    }
+
+.segmento1 img{
+    width: 70px;
+    height: auto;
+}
+.segmento2 img{
+    width: 70px;
+    height: auto;
+}
+.segmento3 img{
+    width: 70px;
+    height: auto;
+}
+.segmento3{
+    background-color: #061a38;
+    height: auto;
+    width: 330px;
+    display: inline-block;
+    border-radius: 10px;
+}  
+
+.encuentranos a{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.encuentranos h1{
+    text-align: center;
+}
+.encuentranos{
+    font-size: 16px;
+    text-align: center;
+    color: #030f5e;
+    width: 40%;
+    margin-left: 20px;
+    height: 580px;
+    background-color: #ebeaea;
+    display: inline;
+    float: left;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+.contacto{
+    
+    color: #061a59;
+    margin-top: 10px;
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    margin-left: none;
+    width: 55%;
+  background: #ebeaea;
+  border-radius: 10px;
+  float: right;
+  margin-right: 20px;
+    display: inline;
+   
+    
+}
+.contacto label{
+    margin-left: 10px;
+}
+
+.contacto input{
+    
+    border: 1px solid #030f5e;
+    height: 30px;
+   width: 90%;
+    color: #030f5e;
+    outline: 0;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.contacto select{
+    margin-left: 10px;
+    color: #030f5e;
+    border-radius: 10px;
+}
+.contacto textarea{
+    margin-left: 10px;
+    width: 90%;
+    color: #030f5e;
+    border-radius: 10px;
+}
+.block
+{
+    grid-column: 1 / 3;
+}
+.contacto button{
+    width: 100px;
+    border: none;
+    background: #030f5e;
+    border-radius: 10px;
+    color: #fff;
+    height: 30px;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 5px;
+    margin-bottom: 14px;
+}
+.contacto h1{
+    text-align: center;
+}
+.contacto label{
+ font-size: 18px;
+ text-align: left;
+
+}
+
+.pie{
+    width: 100%;
+    height: 350px;
+    background-color: #030f5e;
+    color: #fff;
+    font-size: 16px;
+ 
+
+}
+
+.services{
+    color: #061a59;
+    text-align: justify;
+    font-size: 16px;
+    width: 90%;
+    margin-left: 50px;
+    
+}
+.services img{
+    margin-left: 500px;
+    width: 15%;
+    height: auto;
+   margin-bottom: 10px;
+}
+
+
+.services h1{
+    text-align: center;
+    
+   
+}
+.services a{
+    
+    color: #030f5e;
+}
+
+.services h2{
+    text-align: center;
+    
+}
+
+.imagenserv{
+    width: 90%;
+    margin-left: 50px;
+}
+
+.imagenserv img{
+    margin-left: 500px;
+    height: auto;
+}
+
+ .capa{
+    position: absolute;
+    
+ 
+  
+    z-index: -1;
+    top: 0;left: 0;
+
+
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(to left, transparent,  #030f5e), url(https://orozcoasesores.com/wp-content/uploads/2018/02/asesoramiento-contable.jpg);
+    background-size: 100vw 80vh;
+    background-repeat: no-repeat;
+    
+}
+/*Estilos para el encabezado*/
+.header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;left: 0;
+    background-color: #1c1c1c;
+    opacity: 0.7;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    
+  
+}
+
+
+
+.container .menu a:hover{
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 5px;
+}
+/*Fin de Estilos para el encabezado*/
+
+/*Menù lateral*/
+#btn-menu{
+    display: none;
+}
+.container-menu{
+    position: absolute;
+    background: #9b313166 ;
+    width: 100%;
+    height: auto;
+    transition: all 500ms ease;
+    opacity: 0;
+  
+}
+
+
+#btn-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0%);
+}
+nav{
+    transform: translateY(15%);
+}
+@media (max-width: 1252px) {
+    .checkbtn{
+        display: block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    } 
+    ul{ background: #061a88;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -110%;
+        text-align: center;
+        transition: all 0.5s;
+        
+    }
+    nav p{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .nosotros img{
+        border-radius: 10pcx;
+    }
+    
+     
+     nav ul li{
+    display: block;
+    
+    margin: 50px 0;
+    line-height: 30px;
+     }
+    nav ul li a{
+        font-size: 20px;
+    }
+     nav ul li a:hover{
+         background: none;
+         color: #fff;
+     }
+     
+    
+     #check:checked ~ ul{
+        left:0;
+        
+     }
+     .nosotros p{
+         font-size: small;
+         display: block;
+         color: rgb(29, 28, 28);
+     }
+  }
+
+  
+@media (max-width: 1252px) {
+    .checkbtn{
+        display: block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    } 
+    ul{ background: #061a88;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -110%;
+        text-align: center;
+        transition: all 0.5s;
+        float: right;
+        
+    }
+    nav p{
+        font-size: 14px;
+        margin-top: 30px;
+        float: left;
+    }
+    .nosotros img{
+        border-radius: 10pcx;
+    }
+    
+     
+     nav ul li{
+    display: block;
+    
+    margin: 50px 0;
+    line-height: 30px;
+     }
+    nav ul li a{
+        font-size: 20px;
+    }
+     nav ul li a:hover{
+         background: none;
+         color: #fff;
+     }
+     
+    
+     #check:checked ~ ul{
+        left:0;
+        
+     }
+     .nosotros p{
+         font-size: small;
+         display: block;
+         color: #061a59;
+     }
+     .services{
+        font-size: small;
+        display: block;
+        color: #061a59;
+     }
+     .encuentranos iframe{
+        width: 350px;
+        height: 280px;
+    }
+    .capa{
+        background-size: 100vw 60vh;
+        display: block;
+    }
+    .nosotros{
+        margin-top: 680px;
+        display: block;
+    }
+  }
+
+
+
+  @media (max-width: 640px) {
+
+    body{
+        align-items: center;
+        display: block;
+    }
+    .checkbtn{
+    display: block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    } 
+    
+    .contenido  {
+    margin-left: 45px;
+    width: 150px;
+    float: left;
+    font-size: 14px;
+    align-items: initial;
+    display: block;
+    }
+    .nosotros img{
+    width: 300px;
+    float: left;
+    display: block;
+    margin-left: 25px;
+    border-radius: 10px;
+    }
+    .nosotros{
+    margin-left: 15px;
+    text-align: justify;
+    
+    }
+    .services{
+    margin-left: 15px;
+    text-align: justify;
+    }
+    .segmento1{
+    width: 300px;
+    display: block;
+    display: inline-block;
+    }
+    .segmento2{
+    width: 300px;
+    display: block;
+    display: inline-block;
+    }
+    .segmento3{
+    width: 300px;
+    display: block;
+    display: inline-block;
+    }
+    
+    
+    ul{ background: #061a88;
+    position: fixed;
+    width: 100%;
+    height: 65vh;
+    top: 80px;
+    left: -110%;
+    text-align: center;
+    transition: all 0.5s;
+    float: right;
+    
+    }
+    nav p{
+    font-size: 14px;
+    margin-top: 30px;
+    float: left;
+    }
+    
+    
+    nav ul li{
+    display: block;
+    
+    margin: 50px 0;
+    line-height: 10px;
+    }
+    nav ul li a{
+    font-size: 20px;
+    }
+    nav ul li a:hover{
+     background: none;
+     color: #fff;
+    }
+    
+    #check:checked ~ ul{
+    left:0;
+    
+    }
+    .nosotros{
+        margin-top: 400px;
+        display: block;
+    }
+    .nosotros p{
+     font-size: small;
+     display: block;
+     color: #061a59;
+    }
+    .services{
+    font-size: small;
+    display: block;
+    color: #061a59;
+    align-items: center;
+    }
+    .services img{
+    margin-left: 50px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    }
+    .fondo1{
+     margin-top: 25%;
+     
+    }
+    .encuentranos{
+        width: 90%;
+        display: block;
+    }
+    .contacto{
+        display: block;
+        width: 90%;
+        float: right;
+    }
+    .encuentranos iframe{
+        width: 350px;
+        height: 280px;
+    }
+    .capa{
+        background-size: 100vw 60vh;
+        display: block;
+    }
+    
+    }

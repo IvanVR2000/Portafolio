@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Asistente Virtual OMEGA</title>
+    <script src="annyang.min.js"></script>
+    <script src="asistente.js"></script>
+    <link rel="stylesheet" href="asets/css/bootstrap.css">
+    <style> 
+    body{
+        background-color:rgb(8, 8, 8);
+        text-align: center;
+        color:aliceblue;
+        
+    }
+    #content{
+         text-align: center;
+         font-family: sans-serif;
+    }
+    #imagenes{
+        margin-left: 800px;
+    }
+    
+
+        </style>
+</head>
+
+<body>
+    <div id="content">
+    <div>
+<img src="https://pa1.narvii.com/6529/7ec2ba3ccb8cf493bfda211bce5878c514f938e3_hq.gif" alt="gif de aro girando " width="550px">
+</div>
+    <button class="btn btn-success" style="text-align: center;">Enciende a omega</button>
+<div>
+    <h1>¿Que puede hacer omega?</h1>
+    <p>Omega puede tener una interaccion con el usuario y hacer tareas del computador del usuario desde abrir paginas web y programas dentro de la aplicacion si quieres mas información puedes decir "que es omega?" </p>
+</div>
+<div id="listas">
+    <h2>Comandos</h2>
+    <strong><p>No sabes que pedirle a omega? empecemos con unos comandos basicos que te parecen uno saludo?.Primero encendamos a omega, ahora prueba diciendo:</p></strong> 
+    </strong>
+    <li>
+        Omega.
+    </li>
+    <li>
+       Hola.
+    </li>
+    <li>
+        Como estas?
+    </li>
+    <li>
+        Cuentame un chiste.
+    </li>
+    <li>
+        Cuentame algo?
+    </li>
+     <li>
+        Que es Omega?.
+    </li>
+    <br>
+   
+ <strong>Muy bien ahora sabes los comandos basicos de omega, omega no solo puede hacer saludos que te parec si pasamos a las acciones que ella puede hacer por ti. </strong>
+ <p><strong> Funciones de entretenimiento y de oficina de omega. Prueba a omega diciendo algunas de sus funciones.</strong></p>
+ 
+ 
+     <li>
+        Spotify.
+     </li>
+     <li>
+        Musica.
+     </li>
+     <li>
+        Mis canciones.
+     </li>
+     <li>
+        Musica indie.
+     </li>
+     <li>
+        Youtube.
+     </li>
+     <li>
+        Busca en Youtube.
+     </li>
+     <li>
+        Busca en Google.
+     </li>
+     <li>
+        Gmail.
+     </li>
+     <li>
+        Nuevo(Crea un nuevo correo).
+     </li>
+     <li>
+        Documento(abre word).
+     </li>
+     <li>
+        Power Point.
+     </li>
+     <li>
+        Excel.
+     </li>
+     <li>
+        Que hora es.
+     </li>
+     <li>
+        Poema.
+     </li>
+</div>
+</div>
+
+<div id="slideshow" text-align="center">
+    <img id="imagenes" class="d-block w-100" src="https://cdn.smehost.net/sonymusiccommx-mxprod/wp-content/uploads/2019/08/SPOTIFY-PNG.png" width="300px"alt="First slide">
+    <img id="imagenes" class="d-block w-100" src="http://1000marcas.net/wp-content/uploads/2020/02/YouTube-logo.png" alt="Second slide" width="300px">
+    <img id="imagenes" class="d-block w-100" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" width="300px"alt="Third slide">
+
+</div>
+
+<script>
+    var slideShow = function(container) {
+        this.images = [];
+        this.curImage = 0;
+        for (i = 0; i < container.childElementCount; i++) {
+            this.images.push(container.children[i]);
+            this.images[i].style.display = "none";
+        }
+        
+        // Handle going to to the next slide
+        var nextSlide = function() {
+            for (var i = 0; i < this.images.length; i++) {
+                this.images[i].style.display = "none";
+            }
+            this.images[this.curImage].style.display = "block";
+            this.curImage++;
+            if (this.curImage >= this.images.length) {
+                this.curImage = 0;
+            }
+            window.setTimeout(nextSlide.bind(this), 4000);
+        };
+        
+        nextSlide.call(this);
+    };
+    slideShow(document.getElementById("slideshow"));
+        </script>
+
+    <script src="asets/js/bootstrap.js"></script>
+    <script src="asets/js/jquery.js"></script>
+</body>
+
+</html>

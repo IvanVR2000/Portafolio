@@ -1,0 +1,870 @@
+*{margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+    
+}
+body{
+    background: #fff;
+    user-select: none;
+    
+
+} 
+nav{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to left, black,#0b2b33,#0b2b33) ;
+
+
+}
+nav ul{
+    float: right;
+    margin-right: 25px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    color: #fff;
+    
+   margin-bottom: 20x;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    float: right;
+    font-size: 15px;
+    padding: 0px 1px;
+}
+
+
+nav ul li a:hover{
+    color: rgb(211, 103, 2);
+    transition: all 0.3s ease;
+    border-bottom: 2px solid ;
+}
+
+a{
+float: right;
+    text-decoration: none;
+    width: auto;
+    color: #e2e9f7;
+    height: auto;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+a:hover {
+   
+    color:#d2bbb2 ;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid ;
+}
+
+i{
+    width: 40px;
+    margin-right: 6px;
+    padding: 10px;
+}
+#head{
+    margin-top: 20px;
+    float: left;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    margin-left: 35px;
+    align-items: center;
+    font-size: 20px;
+    color: #eee;
+    background:#0b2b33;
+
+
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    background: url(LOGO.png);
+    background-size: cover;
+   margin-right: 20px;
+   float: left;
+  
+}
+#barras{
+   
+   color: #fff;
+    margin: 0;
+    font-size: 22px;
+    padding: 14px;
+    width: 48px;
+    height: 48px;
+    display: none;
+}
+
+#times{
+    position: relative;
+    left: 12px;
+    height: 36px;
+    display: none;
+}
+#va{
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+
+
+/* apartado inicio*/
+
+#inicio{
+    background: linear-gradient(to bottom left, black,#0b2b33,#0b2b33) ;
+    width: 100%;
+    height: 550px;
+    display: block;
+    
+}
+
+#inicio2 {
+    font-family: 'Montserrat Alternates',sans-serif;
+    color: white;
+    width:  40%;
+    height: auto;
+    text-align: justify;
+    border-radius: 10px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 18%;
+
+}
+#inicio2 h1{
+    text-align: center;
+}
+#inicio2 h1 strong{
+    color:  rgb(211, 103, 2);
+}
+#inicio2 p{
+ font-size: 16px;
+}
+#inicio2 input{
+    background-color: rgb(211, 103, 2);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+}
+#inicio3 {
+    width: 30%;
+    height: 450px;
+   
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+    border: 2px solid white ;
+    border-radius: 10px;
+}
+
+#inicio3 img{
+ width: 100%;
+border-radius: 10px;
+margin-top: 1px;
+ height: 446px;
+}
+
+#inicio3:hover{
+    border: 2px solid rgb(211, 103, 2) ;
+}
+
+
+/* apartado sobre mi*/
+
+
+#about{
+  
+    width: 100%;
+    height: 454px;
+    display: block;
+}
+#about2 img{
+
+    width: 30%;
+    height: 45.4%;
+    float: left;
+}
+
+#about3{
+    width: 60%;
+
+    height: auto;
+   
+    float: right;
+    margin-top: 10%;
+    margin-right: 2%;
+    color: #0b2b33;
+
+}
+#about3 h1 strong{
+    border-bottom: 2px solid #d36702;
+}
+#icono {
+    width: 50px;
+    height: auto;
+    position: relative;
+   margin-right: 10px;
+}
+
+/* apartado portafolio*/
+
+
+#porta{
+    width: 100%;
+    height: 1500px;
+    display: block;
+    background: linear-gradient(to bottom left, black,#0b2b33,#0b2b33) ;
+    text-align: center;
+    color: #fff;
+   
+}
+#porta h1 strong{
+    border-bottom: 2px solid #257fb3;
+    margin-right: 350px;
+    
+}
+
+#porta2{
+    text-align: center;
+    border: 3px solid #257fb3;
+   background-size: 300px 200px;
+   background-color: #0b2b33;
+    width: 333px;
+    height: 37%;
+    display: block;
+    border-radius: 10px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+  
+
+    
+}
+ 
+
+#porta2 h1{
+   color: #fff;
+   margin-top: none;
+   font-size: 20px;
+
+  
+}
+
+
+#porta2:hover #porta2logo{
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+
+
+#porta2logo{
+   
+    width: 329px;
+    height: 220px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    
+   
+
+}
+#porta2logo img{
+    width: 335px;
+    height: 250px;
+}
+
+#porta3{
+    text-align: center;
+    border: 3px solid #257fb3;
+   background-size: 300px 200px;
+   background-color: #0b2b33;
+    width: 333px;
+    height: 37%;
+    display: block;
+    border-radius: 10px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: #fff;
+  
+
+}
+
+
+#porta3 h1{
+    font-size: 20px;
+}
+#porta3logo img{
+    width: 328px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+
+#porta4{
+    text-align: center;
+    border: 3px solid #257fb3;
+   background-size: 300px 200px;
+   background-color: #0b2b33;
+    width: 333px;
+    height: 37%;
+    display: block;
+    border-radius: 10px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+  
+
+}
+
+#porta4logo{
+   
+    width: 329px;
+    height: 220px;
+
+    
+   
+
+}
+#porta4logo img{
+    width: 328px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+#porta4 h1{
+    font-size: 20px;
+}
+
+#porta5{
+    text-align: center;
+    border: 3px solid #257fb3;
+   background-size: 300px 200px;
+   background-color: #0b2b33;
+    width: 333px;
+    height: 38%;
+    display: block;
+    border-radius: 10px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+  
+
+}
+
+#porta5 h1{
+    font-size: 20px;
+}
+
+#porta5logo img{
+    width: 328px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+#porta6{
+    text-align: center;
+    border: 3px solid #257fb3;
+   background-size: 300px 200px;
+   background-color: #0b2b33;
+    width: 333px;
+    height: 38%;
+    display: block;
+    border-radius: 10px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+  
+
+}
+#porta6logo img{
+    width: 328px;
+    height: 225px;
+    border-radius: 10px;
+}
+#porta6 h1{
+    font-size: 20px;
+}
+
+#porta7{
+    text-align: center;
+    border: 3px solid #257fb3;
+   background-size: 300px 200px;
+   background-color: #0b2b33;
+    width: 333px;
+    height: 38%;
+    display: block;
+    border-radius: 10px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+  
+
+}
+
+#porta7logo img{
+    width: 328px;
+    height: 225px;
+    border-radius: 10px;
+}
+#porta7 h1{
+    font-size: 20px;
+}
+
+
+/*apartado contactanos*/
+
+.contacto{  
+
+    color: #257fb3;
+    margin-top: 50px;
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    margin-right: none;
+    width: 50%;
+    height: auto;
+    background: #ebeaea;
+    border-radius: 10px;
+   display: inline;
+    margin-left: 20px;
+    float: left;
+
+
+
+}
+.contacto label{
+margin-left: 10px;
+}
+
+.contacto input{
+
+border: 1px solid #030f5e;
+height: 30px;
+width: 90%;
+color: #257fb3;
+outline: 0;
+margin-left: 10px;
+border-radius: 10px;
+}
+.contacto select{
+margin-left: 10px;
+color: #257fb3;
+border-radius: 10px;
+}
+.contacto textarea{
+margin-left: 10px;
+width: 90%;
+color: #257fb3;
+border-radius: 10px;
+}
+.block
+{
+grid-column: 1 / 3;
+}
+.contacto button{
+width: auto;
+border: none;
+background: #257fb3;
+border-radius: 10px;
+color: #fff;
+height: 30px;
+align-items: center;
+margin-left: 300px;
+margin-top: 5px;
+margin-bottom: 14px;
+}
+.contacto h1{
+text-align: center;
+}
+.contacto label{
+font-size: 18px;
+text-align: left;
+
+}
+
+#contacto2{
+    color: #d36702;
+    margin-top: 50px;
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    margin-left: none;
+    width: 40%;
+    background: #ebeaea;
+    border-radius: 10px;
+    display: inline;
+    margin-right: 100px;
+    text-decoration: none;
+    float: right;
+}
+
+#icono2 {
+    width: 50px;
+    height: auto;
+   margin-left: 10px;
+}
+
+#contacto2 a{
+    text-decoration: none;
+    text-align: justify;
+    color: #d36702;
+    font-size: 15px;
+    margin-right: 220px;
+}
+
+#pie{
+    width: 100%;
+    height: 280px;
+    background: linear-gradient(to bottom left, black,#0b2b33,#0b2b33) ;
+    float: left;
+    margin-top: 50px;
+    grid-template-columns: 60px 60px;
+    padding: 45px 0px;
+    color: #fff;
+}
+#logopie{
+    width:  30%;
+    height: auto;
+    float: left;
+}
+#logopie img{
+    width: 40%;
+    height: 150px;
+    margin-left: 50px;
+
+}
+
+#pie2{
+ margin-top: none;
+ width: 40% ;
+ text-align: center;
+ float: left;
+ border-left:2px solid black;
+}
+#icono3 {
+    width: 50px;
+    height: auto;
+   margin-left: 10px;
+   cursor: pointer;
+
+}
+
+#lista{
+    border-left: 2px solid rgb(0, 0, 0);
+
+    width: 20%;
+    margin-right: 50px;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+#lista ul{
+    float: left;
+    margin-right: 250px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+#lista ul li{
+    text-decoration: none;
+    line-height: normal;
+    color: #fff;
+    list-style: none;
+}
+
+#lista ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    float: right;
+    font-size: 15px;
+    padding: 0px 1px;
+}
+
+#lista ul li a:hover{
+   
+    color: gold;
+}
+
+#ex{
+    display: none;
+    color: #fff;
+}
+#close{
+    display: none;
+}
+
+
+
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+margin-bottom: 20px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+ 
+
+/*Menù lateral*/
+#btn-menu{
+    display: none;
+}
+
+header{
+    background: linear-gradient(to left, black,#0b2b33,#0b2b33) ;
+    border-bottom: 2px solid #d2bbb2;
+}
+.container-menu{
+    position: absolute;
+    background: #9b313166 ;
+    width: 100%;
+    height: auto;
+    transition: all 500ms ease;
+    opacity: 0;
+  
+}
+
+
+#btn-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0%);
+}
+
+  /*apartado tablet*/
+@media (max-width: 1252px) {
+    #barras{
+        display: block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    } 
+    
+
+.checkbtn{
+display: block;
+margin-right: 10px;
+margin-bottom: 10px;
+
+} 
+
+#about{
+    width: 100%;
+    height: 800px;
+}
+#about2 img{
+    margin-top: 20px;
+    width: 30%;
+    
+    margin-left: 350px;
+    border-radius: 10px;
+    border: 2px solid #d36702;
+}
+#about3{
+    width: 80%;
+    margin-left: 100px;
+}
+
+#contacto button{
+    margin-left: 50px;
+}
+#formula{
+    width: 90%;
+}
+#contacto2{
+    width: 90%;
+    margin-right: 80px;
+}
+#contacto2 a{
+    margin-right: 250px;
+}
+
+    #ex{
+        display: block;
+        float: left;
+        margin-left: 400px;
+    }
+    header{
+        background-color: #0b2b33;
+    }
+    ul{ background: #0b2b33;
+        position: fixed;
+        width: 50%;
+        height: 75vh;
+        top: 100px;
+        left: 110%;
+        text-align: center;
+        transition: all 0.5s;
+        float: right;
+        
+    }
+    nav p{
+        font-size: 14px;
+        margin-top: 30px;
+        float: left;
+    }
+
+    
+     
+     nav ul li{
+    display: block;
+    margin-right: 250px;
+    
+    margin: 50px 0;
+    line-height: 30px;
+     }
+    nav ul li a{
+        font-size: 20px;
+    }
+     nav ul li a:hover{
+         background: none;
+         color: #fff;
+     }
+     
+    
+     #check:checked ~ ul{
+        left:0;
+        
+     }
+
+     
+  }
+
+
+/*apartado movil*/
+  @media (max-width: 640px) {
+
+    body{
+        align-items: center;
+        display: block;
+    }
+    .checkbtn{
+    display: block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    } 
+
+    #inicio h1{
+        font-size: 20px;
+    }
+    #inicio p{
+        font-size: 14px;
+    }
+    #inicio2{
+        width: 40%;
+        height: auto;
+    }
+    #inicio3 {
+        width: 50%;
+        margin-right: 5px;
+    }
+
+    #about{
+        width: 100%;
+        height: 800px;
+    }
+    #about2 img{
+        margin-top: 20px;
+        width: 50%;
+        position:  relative;
+        margin-left: 150px;
+        border-radius: 10px;
+        border: 2px solid #d36702;
+    }
+    #about3{
+        width: 80%;
+        margin-left: 100px;
+    }
+
+   
+
+    #contacto button{
+        margin-left: 50px;
+    }
+    #formula{
+        width: 90%;
+    }
+    #contacto2{
+        width: 90%;
+        margin-right: 30px;
+    }
+    #contacto2 a{
+        margin-right: 2px;
+    }
+
+    #pie {
+width: 100%;
+
+    }
+    #pielogo{
+        width: 40%;
+    }
+    #pie2 h2{
+        font-size: 20px;
+    }
+    #pie2 h4{
+        font-size: 16px;
+    }
+    #lista{
+        font-size: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+        float: left;
+        position: relative;
+    }
+
+ 
+
+   
+    
+    ul{ background: #0b2b33dc;
+    position: fixed;
+    width: 100%;
+    height: 65vh;
+    top: 80px;
+    left: -110%;
+    text-align: center;
+    transition: all 0.5s;
+    float: right;
+    
+    
+    }
+    nav p{
+    font-size: 14px;
+    margin-top: 30px;
+    float: left;
+    }
+    
+    
+    nav ul li{
+    display: block;
+    
+    margin: 50px 0;
+    line-height: 10px;
+    }
+    nav ul li a{
+    font-size: 20px;
+    }
+    nav ul li a:hover{
+     background: none;
+     color: #fff;
+    }
+    
+    #check:checked ~ ul{
+    left:0;
+    
+    }
+    
+    
+    }
